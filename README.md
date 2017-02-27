@@ -1,4 +1,4 @@
-# HTML & CSS/SCSS Guidelines
+# HTML & CSS/SASS Guidelines
 General HTML, CSS & SASS Guidelines.
 
 ### Table of Contents:
