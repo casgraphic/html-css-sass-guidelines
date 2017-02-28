@@ -200,6 +200,7 @@ This covers all the above points.
 2. Use consistent commenting hierarchy.
 3. Do not use more than 80 columns per line.
 4. Always assign master comments for a big components/pages in different style and normal comments in different style. You can use **`//`** comments in SASS, like:
+
    ```sass
    // ######################################## //
    // ## MODALS.SCSS ## //
