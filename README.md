@@ -50,7 +50,7 @@ HTML
    ```
    
 6. CSS & JS includes doesn’t need **`text/css`** or **`text/javascript`** because they are respective defaults.
-7. Attribute Ordering - should be in a particular order for ease of reading of code:
+7. Attribute Ordering - should be in the following order for ease of reading of code:
    * `id`, `name`,
    * `class`, `data-*`,
    * `src`, `for`, `type`, `href`, `value`,
@@ -154,7 +154,7 @@ This covers all the above points.
    }
    ```
 
-2. Try not use **`@import`** wherever possible. Instead use multiple **`<link>`** elements. (Can be ignored in SASS/SCSS)
+2. Try not to use **`@import`** wherever possible. Instead use multiple **`<link>`** elements. (Can be ignored in SASS/SCSS)
 3. Place media queries as close as their relevant rule-sets in case of CSS. In SASS use media queries inside the selector (just by inheriting it).
 4. Prefixed properties should follow a pattern.
 5. For single declarations use a single line. For ex:
@@ -210,7 +210,7 @@ This covers all the above points.
 ### SASS/SCSS Specific - Rules
 
 1. Use **Prepros** for SASS/SCSS compilation to maintain consistency. Enable **Autoprefixing** & **Sourcemapping** by default.
-2. Define a proper structure of your SASS structure to start with. Have a look at [SASS/SCSS Structuring](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#sassscss-structuring).
+2. Define a proper structure of your SASS structure to start with. Have a look at [SASS/SCSS Structuring](#sassscss-structuring).
 3. Don’t use more than **3 levels** (keep it as low as possible) of nesting in your SASS/SCSS.
 4. Use **‘&’** wherever possible, such as **`:hover`**, **`:after`**, **`:before`**, and many others.
 5. Use SASS/SCSS functions such as **`mix`**, **`darken`**, **`lighten`** for blending colors while hovering, selecting etc.
